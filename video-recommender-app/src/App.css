@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  height: 10vh;
+  line-height: 10vh;
+  text-align: center;
+}

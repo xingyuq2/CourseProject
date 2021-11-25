@@ -1,0 +1,29 @@
+.detail-container {
+  align-items: center;
+  justify-content: center;
+  margin: 10vmin 15vmin 10vmin 15vmin;
+}
+
+.detail-info-name {
+  font-weight: bold;
+  font-size: 5vmin;
+}
+
+.detail-info {
+  display: flex;
+}
+
+.detail-info-img {
+  width: 60vmin;
+}
+
+.detail-info-label {
+  font-weight: bold;
+  font-size: 3vmin;
+  padding-right: 2vmin;
+}
+
+.detail-info-item {
+  font-size: 3vmin;
+  text-align: left;
+}
