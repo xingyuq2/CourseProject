@@ -14,7 +14,8 @@ pip install selenium\
 pip install time
 
 ## Install Node.js and npm
-Download Node.js by this link: https://nodejs.org/en/download/\
+Download Node.js by this link: https://nodejs.org/en/download/
+
 If node and npm is not detected after downloading, try to restart your computer.
 
 
