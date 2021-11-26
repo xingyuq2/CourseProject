@@ -23,14 +23,14 @@ If node and npm is not detected after downloading, try to restart your computer.
 1.If you want to create a new data csv file by using scraper, then follow this instruction. Note that this will rewrite videos.csv file and scraping also takes a long time (approximately 20 minutes).
 
 - Run netflix scraper in the root directory by command:\
-python -m scraper.netflix_scraper
+`python -m scraper.netflix_scraper`
 
 2.If you want to open the video recommender web application, then follow these instructions.
 
 - Run flask app in the root directory by command:\
-python -m flask_app
+`python -m flask_app`
 
 - Run react app in the "video-recommender-app" directory by command:\
-cd video-recommender-app\
-npm install\
-npm start
+`cd video-recommender-app`\
+`npm install`\
+`npm start`
