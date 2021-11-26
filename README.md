@@ -1,7 +1,9 @@
 # CourseProject
 Please see documentation.pdf for details of this project.
 
-## Install python package
+## Setup
+
+### Install python package
 pip install pandas\
 pip install sklearn\
 pip install nltk\
@@ -14,10 +16,15 @@ pip install bs4\
 pip install selenium\
 pip install time
 
-## Install Node.js and npm
+### Install Node.js and npm
 Download Node.js by this link: https://nodejs.org/en/download/
 
 If node and npm is not detected after downloading, try to restart your computer.
+
+### Install Chrome Driver
+Download Chrome Driver by this link: https://chromedriver.chromium.org/downloads
+
+Choose the same version as your chrome and save it in the root directory of this project.
 
 
 ## Usage
