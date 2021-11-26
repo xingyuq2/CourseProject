@@ -1,10 +1,13 @@
 import csv
 from csv import DictReader
+
+# change the csv file name to test output result from scraper, e.g. test.csv
+CSV_TO_WRITE = 'videos.csv'
 KEYS = {'index', 'id', 'name', 'synopsis', 'casts', 'creators', 'genres', 'mood_tag', 'image_url', 'netflix_url'}
 
 
 def write_to_csv(to_csv):
-    with open('videos.csv', 'w', encoding='utf8', newline='') as output_file:
+    with open(CSV_TO_WRITE, 'w', encoding='utf8', newline='') as output_file:
         dict_writer = csv.DictWriter(output_file, KEYS)
         dict_writer.writeheader()
         dict_writer.writerows(to_csv)

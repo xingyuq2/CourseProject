@@ -1,3 +1,9 @@
+"""
+This module is based on recommender system by Mahnoor Javed.
+Different features are used in this module to recommend, and stop words are removed from combined features
+to improve the recommendation.
+Credit attribution: https://towardsdatascience.com/using-cosine-similarity-to-build-a-movie-recommendation-system-ae7f20842599
+"""
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity

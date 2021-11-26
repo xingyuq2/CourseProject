@@ -25,7 +25,9 @@ def scrape():
     collections = soup.find('main', role='main')
     sections = collections.find_all('section')
     # for each section of genre
-    for section in sections:
+    for i, section in enumerate(sections):
+        if i >= NUMBER_SECTION:
+            break
         # find all list of videos in this section
         lis = section.find_all('li')
         # count videos scraped in current section
