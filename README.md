@@ -1,4 +1,5 @@
 # CourseProject
+Please see documentation.pdf for details of this project.
 
 ## Install python package
 pip install pandas\
