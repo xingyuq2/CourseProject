@@ -1,6 +1,9 @@
 # CourseProject
 Please see documentation.pdf for details of this project.
 
+Tutorial presentation video link:
+https://mediaspace.illinois.edu/media/t/1_1oc9euqb
+
 ## Setup
 
 ### Install python package
